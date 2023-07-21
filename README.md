@@ -1,5 +1,6 @@
-## 1° Desenvolva um código Python que lê do teclado nome e a idade atual de uma pessoa. Como saída, imprima o ano em que a pessoa completará 100 anos de idade
+### 1° Desenvolva um código Python que lê do teclado nome e a idade atual de uma pessoa. Como saída, imprima o ano em que a pessoa completará 100 anos de idade
 
+```python
     import datetime
 
     # Solicitar nome e idade
@@ -12,10 +13,12 @@
 
     # Imprimir o resultado
     print(ano_completar_100)
+```
 ---
 
-# 1° Escreva um código Python para verificar se três números digitados na entrada padrão são pares ou ímpares. Para cada número, imprima como saída Par: ou Ímpar: e o número correspondente (um linha para cada número lido).
+### 2° Escreva um código Python para verificar se três números digitados na entrada padrão são pares ou ímpares. Para cada número, imprima como saída Par: ou Ímpar: e o número correspondente (um linha para cada número lido).
 
+```python
     # Ler os números da entrada padrão
     numeros = []
     for i in range(3):
@@ -28,3 +31,4 @@
             print("Par:", numero)
         else:
             print("Ímpar:", numero)
+```
